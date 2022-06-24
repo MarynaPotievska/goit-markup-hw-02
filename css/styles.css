@@ -1,0 +1,281 @@
+:root {
+  --background-color-main: #ffffff;
+  --background-color-secondary: #f5f4fa;
+  --background-color-axcent: #2f303a;
+  --font-color-main: #212121;
+  --font-color-secondary: #757575;
+  --font-color-axcent: #ffffff;
+  --color-axcent: #2196f3;
+  --font-size-base: 14px;
+  --font-size-in-section-title-st: 16px;
+  --font-size-in-section-title-pf: 18px;
+  --margine-sections: 94px;
+  --margine-title: 50px;
+  --letter-spacing-base: 0.03em;
+  --letter-spacing-title: 0.06em;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  background-color: var(--background-color-main);
+}
+
+.navigation-logo {
+  text-decoration: none;
+  padding: 0;
+  letter-spacing: var(--letter-spacing-base);
+  line-height: 1.192307692307;
+}
+
+.logo-web {
+  margin-right: 0;
+  font-family: "Raleway", sans-serif;
+  color: var(--color-axcent);
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.logo-black {
+  margin-left: 0;
+  font-family: "Raleway", sans-serif;
+  color: var(--font-color-main);
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.navigation-list {
+  list-style: none;
+}
+
+.navigation-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: var(--font-size-base);
+  color: var(--font-color-main);
+  letter-spacing: 0.02em;
+  line-height: 1.142857142857;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--color-axcent);
+}
+
+.header-contacts-list {
+  list-style: none;
+}
+
+.header-contact-link {
+  text-decoration: none;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: var(--font-size-base);
+  color: var(--font-color-secondary);
+  letter-spacing: 0.02em;
+  line-height: 1.142857142857;
+}
+
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: var(--color-axcent);
+}
+
+.hero {
+  background-color: var(--background-color-axcent);
+  margin-bottom: var(--margine-sections);
+}
+
+.hero-title {
+  padding-top: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--font-color-axcent);
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: var(--letter-spacing-title);
+}
+
+.hero-button {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  background-color: var(--color-axcent);
+  text-align: center;
+  font-weight: 700;
+  color: var(--font-color-axcent);
+  font-size: var(--font-size-in-section-title-st);
+  line-height: 1.875;
+  letter-spacing: var(--letter-spacing-title);
+  border-style: none;
+  margin-bottom: 200px;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.preferences {
+  margin-bottom: var(--margine-sections);
+}
+
+.preferences-list {
+  list-style: none;
+}
+
+.preferences-title {
+  text-transform: uppercase;
+  color: var(--font-color-main);
+  font-size: var(--font-size-base);
+  line-height: 1.142857142857;
+  letter-spacing: var(--letter-spacing-base);
+  margin-bottom: 10px;
+}
+
+.preferences-info {
+  color: var(--font-color-secondary);
+  font-size: var(--font-size-base);
+  line-height: 1.71;
+  letter-spacing: var(--letter-spacing-base);
+}
+
+.services-list {
+  list-style: none;
+  margin-bottom: var(--margine-sections);
+}
+
+.title {
+  text-align: center;
+  color: var(--font-color-main);
+  font-size: 36px;
+  line-height: 1.1667;
+  letter-spacing: var(--letter-spacing-base);
+  margin-bottom: var(--margine-title);
+}
+
+.team {
+  background-color: var(--background-color-secondary);
+}
+
+.team-list {
+  list-style: none;
+}
+
+.team-member-name {
+  font-weight: 500;
+  color: var(--font-color-main);
+  font-size: var(--font-size-in-section-title-st);
+  line-height: 1.1875;
+  letter-spacing: var(--letter-spacing-base);
+}
+
+.team-member-job {
+  color: var(--font-color-secondary);
+  font-size: var(--font-size-in-section-title-st);
+  line-height: 1.1875;
+  letter-spacing: var(--letter-spacing-base);
+}
+
+.filters-list {
+  list-style: none;
+  margin-bottom: 34px;
+}
+
+.filter-button {
+  cursor: pointer;
+  background-color: var(--background-color-secondary);
+  border-radius: 4px;
+  border: none;
+  height: 38px;
+  padding: 6px 22px;
+  font-weight: 500;
+  font-size: var(--font-size-in-section-title-st);
+  color: var(--font-color-main);
+  line-height: 1.625;
+  letter-spacing: var(--letter-spacing-base);
+  text-align: center;
+}
+
+.filter-button:active {
+  background-color: var(--color-axcent);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--font-color-axcent);
+}
+
+.products-list {
+  list-style: none;
+  margin-bottom: var(--margine-sections);
+}
+
+.product-name {
+  font-weight: 700;
+  font-size: var(--font-size-in-section-title-pf);
+  color: var(--font-color-main);
+  line-height: 2;
+  letter-spacing: var(--letter-spacing-title);
+}
+
+.product-type {
+  font-weight: 400;
+  font-size: var(--font-size-in-section-title-st);
+  color: var(--font-color-secondary);
+  line-height: 1.88;
+  letter-spacing: var(--letter-spacing-base);
+}
+
+.footer {
+  background-color: var(--background-color-axcent);
+}
+
+.footer-logo {
+  text-decoration: none;
+  padding: 0;
+  letter-spacing: var(--letter-spacing-base);
+  line-height: 1.192307692307;
+}
+
+.logo-white {
+  margin-left: 0;
+  font-family: "Raleway", sans-serif;
+  color: var(--font-color-axcent);
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.footer-addresses {
+  padding-bottom: 9px;
+}
+
+.physical-address {
+  font-weight: 400;
+  font-style: normal;
+  color: var(--font-color-axcent);
+  font-size: var(--font-size-base);
+  line-height: 1.714;
+  letter-spacing: var(--letter-spacing-base);
+  margin-bottom: 0;
+}
+
+.footer-contacts-list {
+  list-style: none;
+  margin-top: 0;
+}
+
+.footer-contact-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: var(--font-size-base);
+  line-height: 1.714;
+  letter-spacing: var(--letter-spacing-base);
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+  color: var(--color-axcent);
+}
